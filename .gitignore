@@ -1,0 +1,35 @@
+# Binaries and build artifacts
+devdetox
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Generated CSV files from the tool
+cleanup_*.csv
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+debug
+__debug_bin
+
+# Distribution packages
+*.deb
+*.rpm
+*.tar.gz
