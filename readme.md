@@ -1,6 +1,6 @@
-# Directory Cleanup Tool
+# DevDetox 🧹
 
-A Go utility that helps identify and clean up old `node_modules`, `.venv`, and `.env` directories that are taking up space on your system. It finds directories older than a specified age, calculates their sizes, and provides an interactive cleanup interface.
+A Go utility that helps identify and clean up old `node_modules`, `.venv`, and `.env` directories that are taking up space on your system. It finds directories older than a specified age, calculates their sizes, and deletes them. The logs are exported to a CSV file.
 
 ## Features
 
